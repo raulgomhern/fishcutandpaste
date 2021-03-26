@@ -1,1 +1,466 @@
+body{
+    zoom:18%;
+    background-color: beige;
+    }
 
+.container {
+    background-image: url(../img/animalmaster.png);
+    background-repeat: no-repeat;   
+    position:relative;
+    left: -120px;
+    top:30px;
+    display: flex;
+    justify-content: space-between;
+    width: 2079px;
+    height: 3358px;
+    margin: 0 auto;
+}
+
+.startpointone {
+    position: absolute;
+    top:80px;
+    left:-1100px;
+    height: 338px;
+    width: 809px;
+    justify-content: center;
+    align-items: center;
+}
+.emptyone {
+    position: absolute;
+    top:2075px;
+    left: 600px;
+    height: 338px;
+    width: 760px;
+    margin: 10px;
+    background:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fillone {
+    width: 100%;
+    height: 100%;
+}
+
+.fillone img {
+    width: 100%;
+    height: 100%;
+}
+
+.drag_startone {
+    opacity: .5;
+}
+
+.invisibleone {
+    display: none;
+}
+
+
+.startpointtwo {
+    position: absolute;
+    top:500px;
+    left:-600px;
+    height: 368px;
+    width: 346px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptytwo {
+    position: absolute;
+    top:140px;
+    left: 1500px;
+    height: 368px;
+    width: 346px;
+    margin: 10px;
+    display: flex;
+    background:transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.filltwo {
+    width: 100%;
+    height: 100%;
+}
+
+.filltwo img {
+    width: 100%;
+    height: 100%;
+}
+
+.drag_starttwo {
+    opacity: .5;
+}
+
+.invisibletwo {
+    display: none;
+}
+.startpointthree {
+    position: absolute;
+    top:500px;
+    left:-990px;
+    height: 466px;
+    width: 277px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emptythree {
+    position: absolute;
+    top:1100px;
+    left: 1025px;
+    height: 466px;
+    width: 277px;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.fillthree {
+    width: 100%;
+    height: 100%;
+}
+
+.fillthree img {
+    width: 100%;
+    height: 100%;
+}
+
+.drag_startthree {
+    opacity: .5;
+}
+
+.invisiblethree {
+    display: none;
+}
+.startpointfour {
+    position: absolute;
+    top:1000px;
+    left:-904px;
+    height:495px;
+    width: 645px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emptyfour {
+    position: absolute;
+    top:600px;
+    left: 680px;
+    height: 495px;
+    width: 645px;
+    margin: 10px;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.fillfour {
+    width: 99%;
+    height: 99%;
+}
+
+.fillfour img {
+    width: 100%;
+    height: 100%;
+}
+
+.drag_startfour {
+    opacity: .5;
+}
+
+.invisiblefour {
+    display: none;
+}
+
+.startpointfive {
+    position: absolute;
+    top:1550px;
+    left:-950px;
+    height: 385px;
+    width: 641px;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptyfive {
+    position: absolute;
+    top:2390px;
+    left: 660px;
+    height: 385px;
+    width: 641px;
+    margin: 10px;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.fillfive {
+    width: 100%;
+    height: 100%;
+}
+
+.fillfive img {
+    width: 100%;
+    height: 100%;
+}
+
+.drag_startfive {
+    opacity: .5;
+}
+
+.invisiblefive {
+    display: none;
+}
+
+.startpointsix {
+    position: absolute;
+    top:80px;
+    left:2150px;
+    height: 759px;
+    width: 433px;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptysix {
+    position: absolute;
+    top:650px;
+    left: 1395px;
+    height: 759px;
+    width: 433px;
+    margin: 10px;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.fillsix {
+    width: 100%;
+    height: 100%;
+}
+
+.fillsix img {
+    width: 100%;
+    height: 100%;
+}
+
+.drag_startsix {
+    opacity: .5;
+}
+
+.invisiblesix {
+    display: none;
+}
+.startpointseven {
+    position: absolute;
+    top:2000px;
+    left:-800px;
+    height: 335px;
+    width: 411px;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptyseven {
+    position: absolute;
+    top:150px;
+    left: 660px;
+    height: 335px;
+    width: 411px;
+    margin: 10px;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.fillseven {
+    width: 100%;
+    height: 100%;
+}
+
+.fillseven img {
+    width: 100%;
+    height: 100%;
+}
+
+.drag_startseven {
+    opacity: .5;
+}
+
+.invisibleseven {
+    display: none;
+}
+
+.startpointeight {
+    position: absolute;
+    top:900px;
+    left:2150px;
+    height: 988px;
+    width: 875px;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptyeight {
+    position: absolute;
+    top:620px;
+    left: 90px;
+    height: 988px;
+    width: 875px;
+    margin: 10px;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.filleight {
+    width: 100%;
+    height: 100%;
+}
+
+.filleight img {
+    width: 100%;
+    height: 100%;
+}
+
+.drag_starteight {
+    opacity: .5;
+}
+
+.invisibleeight {
+    display: none;
+}
+
+.startpointnine {
+    position: absolute;
+    top:1300px;
+    left:2550px;
+    height: 1122px;
+    width: 1086px;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptynine {
+    position: absolute;
+    top:1940px;
+    left: 980px;
+    height: 1122px;
+    width: 1086px;
+    margin: 10px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fillnine {
+    width: 100%;
+    height: 100%;
+}
+
+.fillnine img {
+    width: 100%;
+    height: 100%;
+}
+
+.drag_startnine {
+    opacity: .5;
+}
+
+.invisiblenine {
+    display: none;
+}
+
+.startpointten {
+    position: absolute;
+    top:80px;
+    left:2750px;
+    height: 496px;
+    width: 1060px;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptyten {
+    position: absolute;
+    top:2710px;
+    left: 0px;
+    height: 496px;
+    width: 1060px;
+    margin: 10px;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.fillten {
+    width: 100%;
+    height: 100%;
+}
+
+.fillten img {
+    width: 100%;
+    height: 100%;
+}
+
+.drag_startten {
+    opacity: .5;
+}
+
+.invisibleten {
+    display: none;
+}
+
+
+.startpointeleven {
+    position: absolute;
+    top:700px;
+    left:2950px;
+    height:677px;
+    width: 540px;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptyeleven {
+    position: absolute;
+    top:1260px;
+    left: 880px;
+    height: 677px;
+    width: 540px;
+    margin: 10px;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.filleleven {
+    width: 100%;
+    height: 100%;
+}
+
+.filleleven img {
+    width: 100%;
+    height: 100%;
+}
+
+.drag_starteleven {
+    opacity: .5;
+}
+
+.invisibleeleven {
+    display: none;
+}
